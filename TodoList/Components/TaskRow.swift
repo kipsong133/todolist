@@ -17,6 +17,7 @@ struct TaskRow: View {
             Image(systemName: completed ? "checkmark.circle.fill" : "circle")
             Text(task)
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
